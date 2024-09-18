@@ -10,7 +10,7 @@ export default function Index() {
         flex: 1,
         justifyContent: "center",
         alignItems: "center",
-        backgroundColor: "#5B49DB"
+        backgroundColor: "#F36C48"
       }}
     >
       <Profile
