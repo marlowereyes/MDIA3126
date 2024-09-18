@@ -1,7 +1,7 @@
 import { View } from "react-native";
 import Button from "@/components/atoms/Button";
-import Label from "@/components/atoms/Label";
-import InputForm from "@/components/molecules/InputForm";
+import Name from "@/components/atoms/Name";
+import Profile from "@/components/molecules/Profile";
 
 export default function Index() {
   return (
@@ -13,10 +13,14 @@ export default function Index() {
         backgroundColor: "#5B49DB"
       }}
     >
-      <InputForm
-        textForLabel="Irina Lim"
+      <Profile
+        nameText="Irina Lim"
         textForButton="Message Irina"
-        statusText="Mother" />
+        statusText="Mother" 
+        bioText="Hi! I am Irina and I am a mother of one lovely daughter. I love cats, fun nights out, and alcohol <3"
+        textForChoiceButton1="✘"
+        textForChoiceButton2="❤"
+        />
     </View>
   );
 }
