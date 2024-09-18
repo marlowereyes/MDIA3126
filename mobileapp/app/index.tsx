@@ -16,7 +16,7 @@ export default function Index() {
       <InputForm
         textForLabel="Irina Lim"
         textForButton="Message Irina"
-        textForPlaceholder="Mother" />
+        statusText="Mother" />
     </View>
   );
 }
