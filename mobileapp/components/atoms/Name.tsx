@@ -1,15 +1,16 @@
 import { Text, View } from "react-native"
 
-export default function Status({statusText}){
+export default function Name({ nameText}){
     return (
         <View>
             <Text
                 style={{
                     color:"white",
-                    fontSize: "16px"
+                    fontWeight: "700",
+                    fontSize: "24px"
                 }}
                 >
-                    {statusText}
+                    {nameText}
                 </Text>
         </View>
     )
