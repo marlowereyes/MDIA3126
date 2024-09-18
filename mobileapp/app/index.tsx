@@ -1,4 +1,7 @@
-import { Text, View } from "react-native";
+import { View } from "react-native";
+import Button from "@/components/atoms/Button";
+import Label from "@/components/atoms/Label";
+import InputForm from "@/components/molecules/InputForm";
 
 export default function Index() {
   return (
@@ -7,9 +10,13 @@ export default function Index() {
         flex: 1,
         justifyContent: "center",
         alignItems: "center",
+        backgroundColor: "#5B49DB"
       }}
     >
-      <Text>Edit app/index.tsx to edit this screen.</Text>
+      <InputForm
+        textForLabel="Irina Lim"
+        textForButton="Message Irina"
+        statusText="Mother" />
     </View>
   );
 }
